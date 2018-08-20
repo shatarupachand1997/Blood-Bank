@@ -1,0 +1,61 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Create account</title>
+</head>
+<body>
+<center><h1>BLOOD BANK</h1></center>
+<center><h3>REGISTER</h3></center>
+<br><br>
+<center><form method="post" action="store.php" >
+	<table>
+		<tr>
+			<td>Enter name: </td>
+			<td><input type="text" name="dname" id="dname"></td>
+		</tr>
+		<tr>
+			<td>Enter age: </td>
+			<td><input type="number" name="age" id="age"></td>
+		</tr>
+		<tr>
+			<td>Enter address: </td>
+			<td><input type="text" name="address" id="address"></td>
+		</tr>
+		<tr>
+			<td>Enter email ID: </td>
+			<td><input type="email" name="email" id="email"></td>
+		</tr>
+		<tr>
+			<td>Enter mobile: </td>
+			<td><input type="number" name="mobile" id="mobile"></td>
+		</tr>
+		<tr>
+			<td>Enter Blood Group: </td>
+			<td><select id="bg" name="bg">
+					<option id="A+" NAME="A+">A+</option>
+					<option id="B+" NAME="B+">B+</option>
+					<option id="AB+" NAME="AB+">AB+</option>
+					<option id="O+" NAME="O+">O+</option>
+					<option id="A-" NAME="A-">A-</option>
+					<option id="B-" NAME="B-">B-</option>
+					<option id="AB-" NAME="AB-">AB-</option>
+					<option id="O-" NAME="O-">O-</option>
+					<option id="Bombay" NAME="Bombay">Bombay</option>
+				</select>	
+			</td>
+		</tr>
+		<tr>
+			<td>Enter gender: </td>
+			<td><select id="gender" name="gender">
+					<option id="Male" NAME="Male">Male</option>
+					<option id="Female" NAME="Female">Female</option></td>					
+		</tr>		
+		<tr>
+			<td></td>
+			<td><button>Submit Details</button></td>
+		</tr>
+	</table>
+</form>
+</body>
+</html>
